@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-11T09:56:03.342Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="nAW0DjRe0nV7Oru6fHlh" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-11T09:57:33.635Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="a5-PtnVU07J6lTGk03NA" version="22.1.18" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1124" dy="1013" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1606" dy="1276" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -114,6 +114,38 @@
               <mxPoint x="1277" y="245" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="s-RZ2mOXNUzrkTFULdYA-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="918" y="580" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-12" value="&lt;&lt;interface&gt;&gt;&#xa;UtagLabelRepository" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="731" y="622" width="373" height="90" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-13" value="~ batchSaveUpload(List&lt;SetFileDTO&gt; list) : void&#xa;~ getStringReplaceInfo(String uuid) : List&lt;MatchFileStringDTO&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s-RZ2mOXNUzrkTFULdYA-12">
+          <mxGeometry y="40" width="373" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-14" value="&lt;&lt;interface&gt;&gt;&#xa;BaseMapper" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="134" y="611" width="500" height="112" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-15" value="~ insert(T entity) : int&#xa;~ deleteById(Serializable id) : int&#xa;~ update(T entity, Wrapper&lt;T&gt; updateWrapper) : int&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s-RZ2mOXNUzrkTFULdYA-14">
+          <mxGeometry y="40" width="500" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=blockThin;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s-RZ2mOXNUzrkTFULdYA-13" target="s-RZ2mOXNUzrkTFULdYA-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-17" value="&lt;&lt;interface&gt;&gt;&#xa;LibraryRepository" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="732" y="736" width="373" height="90" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-18" value="~ batchSaveUpload(List&lt;SetFileDTO&gt; list) : void&#xa;~ getStringReplaceInfo(String uuid) : List&lt;MatchFileStringDTO&gt;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s-RZ2mOXNUzrkTFULdYA-17">
+          <mxGeometry y="40" width="373" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
