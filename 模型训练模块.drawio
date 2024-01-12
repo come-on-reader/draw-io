@@ -1,0 +1,155 @@
+<mxfile host="app.diagrams.net" modified="2024-01-12T08:54:19.513Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="u6tHLY3cLU_rIGFoPavY" version="22.1.18" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="2055" dy="1395" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="ijNItwPhicT-rT-5I67z-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=openThin;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="UtagLabelController" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="600" y="50" width="636" height="148" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="- utagLabelServiceImpl : UtagLabelServiceImpl" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="26" width="636" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="50" width="636" height="14" as="geometry" />
+        </mxCell>
+        <mxCell id="leDKgYyMwmwTG1ITvoYh-4" value="+ list(Long taskId, HttpServletRequest requesrt) : Result&#xa;+ insert(UtagLabelDO, HttpServletRequest requesrt) : Result&#xa;+ update(UtagLabelDO, HttpServletRequest requesrt) : Result&#xa;+ delete(Long taskId, Long id, HttpServletRequest request) : Result&#xa;+ saveAllLabels(LabelListDTO labelList, HttpServletRequest request) : Result" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="64" width="636" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="s-RZ2mOXNUzrkTFULdYA-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="s-RZ2mOXNUzrkTFULdYA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="leDKgYyMwmwTG1ITvoYh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="UtagLabelServiceImpl" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="594" y="270" width="649" height="188" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="- commonMongoQo : CommonMongoQo&#xa;- mongoTemplate : MongoTemplate&#xa;- utagLabelRepository : UtagLabelRepository&#xa;- libraryRepository : LibraryRepository" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="26" width="649" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="90" width="649" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="+ listUtagLabelByTaskAndUser(Long taskId, String userId) : Result&#xa;+ insertLabel(UtagLabelDO utagLabelDO) : Result&#xa;+ updateLabel(UtagLabelDO utagLabelDO) : Result&#xa;+ deleteLabel(Long labelId, Long taskId, String userId) : Result&#xa;+ saveAllLabels(List&lt;UtagLabelDTO&gt; labelList, List&lt;Long&gt; deleteIds, String libraryName, Long taskId, String userId) : Result " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="103" width="649" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="leDKgYyMwmwTG1ITvoYh-6" value="&lt;&lt;interface&gt;&gt;&#xa;UtagLabelService" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="62" y="266" width="464" height="155" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="leDKgYyMwmwTG1ITvoYh-9" value="+ listUtagLabelByTaskAndUser(Long taskId, String userId) : Result&#xa;+ insertLabel(UtagLabelDO utagLabelDO) : Result&#xa;+ updateLabel(UtagLabelDO utagLabelDO) : Result&#xa;+ deleteLabel(Long labelId, Long taskId, String userId) : Result&#xa;+ saveAllLabels(List&lt;UtagLabelDTO&gt; labelList, List&lt;Long&gt; deleteIds, String libraryName, Long taskId, String userId) : Result " style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="leDKgYyMwmwTG1ITvoYh-6" vertex="1">
+          <mxGeometry y="40" width="464" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ijNItwPhicT-rT-5I67z-0" value="BaseController" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="648" y="-79" width="540" height="92" as="geometry">
+            <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ijNItwPhicT-rT-5I67z-3" value="# getUserId() : String&#xa;# getUserName() : String&#xa;# getFileSecurity(HttpServletRequest request) : Integer" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ijNItwPhicT-rT-5I67z-0" vertex="1">
+          <mxGeometry y="26" width="540" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="ijNItwPhicT-rT-5I67z-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="ijNItwPhicT-rT-5I67z-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="868" y="-29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-0" value="&lt;&lt;interface&gt;&gt;&#xa;CommonMongoQo" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1395" y="510" width="500" height="122" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-1" value="~ getPkId() : Long&#xa;~ insertInfo(T entity) : &lt;T extends BaseEntity&gt;&#xa;~ batchInsert(List&lt;T&gt; entityList) : &lt;T extends BaseEntity&gt;&#xa;~ save(T entity) : &lt;T extends BaseEntity&gt;&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s-RZ2mOXNUzrkTFULdYA-0">
+          <mxGeometry y="40" width="500" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-2" value="MongoTemplate" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=27;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1326" y="163" width="500" height="65" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-3" value="..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s-RZ2mOXNUzrkTFULdYA-2">
+          <mxGeometry y="27" width="500" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=block;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s-RZ2mOXNUzrkTFULdYA-5" target="s-RZ2mOXNUzrkTFULdYA-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-5" value="CommonMongoQoImpl" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1327" y="308" width="635" height="145" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-6" value="- mongoRepository : CommonMongoRepository" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s-RZ2mOXNUzrkTFULdYA-5">
+          <mxGeometry y="26" width="635" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-7" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="s-RZ2mOXNUzrkTFULdYA-5">
+          <mxGeometry y="51" width="635" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-8" value="~ getPkId() : Long&#xa;~ insertInfo(T entity) : &lt;T extends BaseEntity&gt;&#xa;~ batchInsert(List&lt;T&gt; entityList) : &lt;T extends BaseEntity&gt;&#xa;~ save(T entity) : &lt;T extends BaseEntity&gt;&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s-RZ2mOXNUzrkTFULdYA-5">
+          <mxGeometry y="59" width="635" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="s-RZ2mOXNUzrkTFULdYA-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1244" y="411" as="sourcePoint" />
+            <mxPoint x="1432" y="439" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;dashed=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="s-RZ2mOXNUzrkTFULdYA-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1244" y="411" as="sourcePoint" />
+            <mxPoint x="1385" y="421" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1278" y="411" />
+              <mxPoint x="1278" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s-RZ2mOXNUzrkTFULdYA-12" target="s-RZ2mOXNUzrkTFULdYA-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-12" value="&lt;&lt;interface&gt;&gt;&#xa;UtagLabelRepository" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="429" y="528" width="373" height="108" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-13" value="~ getUtagLabel(Long taskId, String userId) : List&lt;UtagLabelDTO&gt;&#xa;~ insertUtag(UtagLabelDO utagLabelDO) : void&#xa;~ deleteUtagById(Long id) : void&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s-RZ2mOXNUzrkTFULdYA-12">
+          <mxGeometry y="40" width="373" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-14" value="&lt;&lt;interface&gt;&gt;&#xa;BaseMapper" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="627" y="693" width="500" height="112" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-15" value="~ insert(T entity) : int&#xa;~ deleteById(Serializable id) : int&#xa;~ update(T entity, Wrapper&lt;T&gt; updateWrapper) : int&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s-RZ2mOXNUzrkTFULdYA-14">
+          <mxGeometry y="40" width="500" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s-RZ2mOXNUzrkTFULdYA-17" target="s-RZ2mOXNUzrkTFULdYA-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1109" y="665" />
+              <mxPoint x="877" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-17" value="&lt;&lt;interface&gt;&gt;&#xa;UtagLabelHistoryRepository" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="923" y="528" width="373" height="93" as="geometry">
+            <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-18" value="~ listHistoryLabel(Long libraryId) : List&lt;UtagLabelHistoryDO&gt;&#xa;~ createHistoryLabel(Long taskId, Long libraryId, String userId) : Long&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="s-RZ2mOXNUzrkTFULdYA-17">
+          <mxGeometry y="40" width="373" height="53" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
