@@ -1,9 +1,78 @@
-<mxfile host="app.diagrams.net" modified="2024-04-05T01:59:03.474Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" version="24.2.2" etag="kJp8aKubaICCnCiltlAd" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-05T02:38:38.526Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="GvX8DuF_f00Ugg6ASvLG" version="24.2.2" type="github">
   <diagram name="第 1 页" id="8csQTMMCxHrFGBnU7X7c">
-    <mxGraphModel>
+    <mxGraphModel dx="2365" dy="1513" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="u0qgPgdiI0i59gE-5goh-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=openThin;endFill=0;fontSize=16;" edge="1" parent="1" source="u0qgPgdiI0i59gE-5goh-6" target="u0qgPgdiI0i59gE-5goh-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-6" value="UserGroupController" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="700" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-7" value="- userGroupServiceImpl" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="u0qgPgdiI0i59gE-5goh-6">
+          <mxGeometry y="30" width="700" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-9" value="+ listUserByGroupId(String groupId, HttpServletRequest request) : Result&lt;div style=&quot;font-size: 16px;&quot;&gt;+ getInvitedInfo(String groupId, String userId, String role, HttpServletRequest request) : Request&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;+ joinGroup(String encryptionInfo, HttpServletRequest request) : Result&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;+ findGroupsByUserId(HttpServletRequest request) : Result&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;+ deleteGroupUser(String groupId, String deletedUserId, HttpServletRequest request) : Result&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="u0qgPgdiI0i59gE-5goh-6">
+          <mxGeometry y="60" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=openThin;endFill=0;fontSize=16;" edge="1" parent="1" target="u0qgPgdiI0i59gE-5goh-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1199" y="477.5769230769231" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1219" y="477.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=openThin;endFill=0;fontSize=16;exitX=1.002;exitY=0.34;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="u0qgPgdiI0i59gE-5goh-12" target="u0qgPgdiI0i59gE-5goh-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1199" y="477.5" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-10" value="UserGroupServiceImpl" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="450" y="370" width="700" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-11" value="- groupRoleUserRelRepository&lt;div style=&quot;font-size: 16px;&quot;&gt;- roleRepository&lt;/div&gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="u0qgPgdiI0i59gE-5goh-10">
+          <mxGeometry y="30" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-12" value="+ listUserByGroupId(String groupId, HttpServletRequest request) : Result&lt;div style=&quot;font-size: 16px;&quot;&gt;+ getInvitedInfo(String groupId, String userId, String role, HttpServletRequest request) : Request&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;+ joinGroup(String encryptionInfo, HttpServletRequest request) : Result&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;+ findGroupsByUserId(HttpServletRequest request) : Result&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;+ deleteGroupUser(String groupId, String deletedUserId, HttpServletRequest request) : Result&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="u0qgPgdiI0i59gE-5goh-10">
+          <mxGeometry y="70" width="700" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-13" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/div&gt;UserGroupService" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="220" y="617.5" width="690" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-15" value="+ listUserByGroupId(String groupId, HttpServletRequest request) : Result&lt;div style=&quot;font-size: 16px;&quot;&gt;+ getInvitedInfo(String encryptionInfo, HttpServletRequest request) : Request&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;+ joinGroup(String encryptionInfo, HttpServletRequest request) : Result&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;+ findGroupsByUserId(HttpServletRequest request) : Result&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;+ deleteGroupUser(String groupId, String deletedUserId, HttpServletRequest request) : Result&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="u0qgPgdiI0i59gE-5goh-13">
+          <mxGeometry y="40" width="690" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=blockThin;endFill=0;" edge="1" parent="1" source="u0qgPgdiI0i59gE-5goh-16" target="u0qgPgdiI0i59gE-5goh-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1430" y="477" />
+              <mxPoint x="1430" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-16" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;RoleRepository&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="1239" y="442.5" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=0;fontSize=16;" edge="1" parent="1" source="u0qgPgdiI0i59gE-5goh-19" target="u0qgPgdiI0i59gE-5goh-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-19" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;GroupRoleUserRelRepository&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="920" y="617.5" width="479" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-20" value="~ listUserByGroupId(String groupId) : Result&lt;div style=&quot;font-size: 16px;&quot;&gt;~ listUserByGroupIds(List&amp;lt;String&amp;gt; groupIds) : List&amp;lt;StdUserDTO&amp;gt;&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="u0qgPgdiI0i59gE-5goh-19">
+          <mxGeometry y="40" width="479" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-21" value="&lt;div style=&quot;font-size: 16px;&quot;&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;BaseMapper&amp;lt;T&amp;gt;&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="970" y="770" width="420" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-22" value="~ insert(T entity) : int&lt;div style=&quot;font-size: 16px;&quot;&gt;~ deleteById(Serializable id) : int&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;~ update(T entity, Wrapper&amp;lt;T&amp;gt; updateWrapper) : int&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="u0qgPgdiI0i59gE-5goh-21">
+          <mxGeometry y="40" width="420" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u0qgPgdiI0i59gE-5goh-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.529;entryY=-0.021;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;endArrow=block;endFill=0;fontSize=16;" edge="1" parent="1" source="u0qgPgdiI0i59gE-5goh-10" target="u0qgPgdiI0i59gE-5goh-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
