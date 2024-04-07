@@ -1,113 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2024-01-12T08:46:55.298Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="akCP3TFwmuwgIrQpwwsT" version="22.1.18" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-07T08:24:25.201Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36 Edg/123.0.0.0" etag="PLFUAQ6aEdE6zTpeIOwG" version="24.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2044" dy="1515" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1110" dy="1125" grid="0" gridSize="10" guides="0" tooltips="0" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
-        <mxCell id="ijNItwPhicT-rT-5I67z-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;endArrow=openThin;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="UtagAutoTagController" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="600" y="50" width="636" height="173" as="geometry">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--0" value="UtagAutoTagController" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="600" y="50" width="692" height="209" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="- utagAutoTagServiceImpl : UtagAutoTagServiceImpl" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="26" width="636" height="24" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--1" value="- utagAutoTagServiceImpl : UtagAutoTagServiceImpl" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="26" width="692" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="50" width="636" height="14" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--4" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=16;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="50" width="692" height="14" as="geometry" />
         </mxCell>
-        <mxCell id="leDKgYyMwmwTG1ITvoYh-4" value="+ showBuyModel(HttpServletRequest requesrt) : Result&#xa;+ showModelList(Integer page, Integer size, HttpServletRequest requesrt) : Result&#xa;+ showUsedModel(HttpServletRequest request, Long taskId) : Result&#xa;+ autoLabel(AutoLabelDTO labelDTO, HttpServletRequest request) : Result&#xa;+ autoLabelRate(HttpServletRequest request, Long taskId) : Result&#xa;+ autoLabelStatus(HttpServletRequest request, Long taskId, Integer page, Integer size) : Result&#xa;+ stopAutoLabel(HttpServletRequest request, Long taskId) : Result" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
-          <mxGeometry y="64" width="636" height="109" as="geometry" />
+        <mxCell id="leDKgYyMwmwTG1ITvoYh-4" value="+ showBuyModel(HttpServletRequest requesrt) : Result&#xa;+ showModelList(Integer page, Integer size, HttpServletRequest requesrt) : Result&#xa;+ showUsedModel(HttpServletRequest request, Long taskId) : Result&#xa;+ autoLabel(AutoLabelDTO labelDTO, HttpServletRequest request) : Result&#xa;+ autoLabelRate(HttpServletRequest request, Long taskId) : Result&#xa;+ autoLabelStatus(HttpServletRequest request, Long taskId, Integer page, Integer size) : Result&#xa;+ stopAutoLabel(HttpServletRequest request, Long taskId) : Result" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="zkfFHV4jXpPFQw0GAbJ--0" vertex="1">
+          <mxGeometry y="64" width="692" height="145" as="geometry" />
         </mxCell>
-        <mxCell id="s-RZ2mOXNUzrkTFULdYA-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1109.5000000000002" y="528" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="s-RZ2mOXNUzrkTFULdYA-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=openThin;endFill=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="s-RZ2mOXNUzrkTFULdYA-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="s-RZ2mOXNUzrkTFULdYA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=0;dashed=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--6" target="leDKgYyMwmwTG1ITvoYh-9" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="UtagAutoTagServiceImpl" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="594" y="270" width="649" height="179" as="geometry">
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--6" value="UtagAutoTagServiceImpl" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="695" y="308" width="500" height="225" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="- utagModelRepository : UtagModelRepository&#xa;- utagModelTaskConfigRepository : UtagModelTaskConfigRepository&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="26" width="649" height="36" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--7" value="- utagModelRepository : UtagModelRepository&#xa;- utagModelTaskConfigRepository : UtagModelTaskConfigRepository&#xa;" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="26" width="500" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="62" width="649" height="7" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--9" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=16;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="74" width="500" height="7" as="geometry" />
         </mxCell>
-        <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="+ showBuyModel(String userId) : Result&#xa;+ showModelList(String userId, Integer page, Integer size) : Result&#xa;+ showUsedModel(Long taskId, String userId) : Result&#xa;+ autoLabel(AutoLabelDTO labelDTO) : Result&#xa;+ autoLabelRate(Long taskId, String user, String userId) : Result&#xa;+ pageLabelStatus(Long taskId, Integer page, Integer size) : Result&#xa;+ stopAutoLabel(Long taskId, String user, String userId) : Result" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
-          <mxGeometry y="69" width="649" height="110" as="geometry" />
+        <mxCell id="zkfFHV4jXpPFQw0GAbJ--11" value="+ showBuyModel(String userId) : Result&#xa;+ showModelList(String userId, Integer page, Integer size) : Result&#xa;+ showUsedModel(Long taskId, String userId) : Result&#xa;+ autoLabel(AutoLabelDTO labelDTO) : Result&#xa;+ autoLabelRate(Long taskId, String user, String userId) : Result&#xa;+ pageLabelStatus(Long taskId, Integer page, Integer size) : Result&#xa;+ stopAutoLabel(Long taskId, String user, String userId) : Result" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="zkfFHV4jXpPFQw0GAbJ--6" vertex="1">
+          <mxGeometry y="81" width="500" height="144" as="geometry" />
         </mxCell>
-        <mxCell id="leDKgYyMwmwTG1ITvoYh-6" value="&lt;&lt;interface&gt;&gt;&#xa;UtagAutoTagService" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="62" y="261" width="464" height="155" as="geometry">
+        <mxCell id="leDKgYyMwmwTG1ITvoYh-6" value="&lt;&lt;interface&gt;&gt;&#xa;UtagAutoTagService" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="62" y="261" width="490" height="172" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="leDKgYyMwmwTG1ITvoYh-9" value="+ showBuyModel(String userId) : Result&#xa;+ showModelList(String userId, Integer page, Integer size) : Result&#xa;+ showUsedModel(Long taskId, String userId) : Result&#xa;+ autoLabel(AutoLabelDTO labelDTO) : Result&#xa;+ autoLabelRate(Long taskId, String user, String userId) : Result&#xa;+ pageLabelStatus(Long taskId, Integer page, Integer size) : Result&#xa;+ stopAutoLabel(Long taskId, String user, String userId) : Result" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="leDKgYyMwmwTG1ITvoYh-6" vertex="1">
-          <mxGeometry y="40" width="464" height="115" as="geometry" />
+        <mxCell id="leDKgYyMwmwTG1ITvoYh-9" value="+ showBuyModel(String userId) : Result&#xa;+ showModelList(String userId, Integer page, Integer size) : Result&#xa;+ showUsedModel(Long taskId, String userId) : Result&#xa;+ autoLabel(AutoLabelDTO labelDTO) : Result&#xa;+ autoLabelRate(Long taskId, String user, String userId) : Result&#xa;+ pageLabelStatus(Long taskId, Integer page, Integer size) : Result&#xa;+ stopAutoLabel(Long taskId, String user, String userId) : Result" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="leDKgYyMwmwTG1ITvoYh-6" vertex="1">
+          <mxGeometry y="46" width="490" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="ijNItwPhicT-rT-5I67z-0" value="BaseController" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="ijNItwPhicT-rT-5I67z-0" value="BaseController" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="648" y="-79" width="540" height="92" as="geometry">
             <mxRectangle x="230" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ijNItwPhicT-rT-5I67z-3" value="# getUserId() : String&#xa;# getUserName() : String&#xa;# getFileSecurity(HttpServletRequest request) : Integer" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="ijNItwPhicT-rT-5I67z-0" vertex="1">
+        <mxCell id="ijNItwPhicT-rT-5I67z-3" value="# getUserId() : String&#xa;# getUserName() : String&#xa;# getFileSecurity(HttpServletRequest request) : Integer" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="ijNItwPhicT-rT-5I67z-0" vertex="1">
           <mxGeometry y="26" width="540" height="66" as="geometry" />
         </mxCell>
-        <mxCell id="ijNItwPhicT-rT-5I67z-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=block;endFill=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="zkfFHV4jXpPFQw0GAbJ--0" target="ijNItwPhicT-rT-5I67z-0" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="868" y="-29" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="s-RZ2mOXNUzrkTFULdYA-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=blockThin;endFill=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="s-RZ2mOXNUzrkTFULdYA-12" target="s-RZ2mOXNUzrkTFULdYA-14" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="616" y="639" />
-              <mxPoint x="877" y="639" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="s-RZ2mOXNUzrkTFULdYA-12" value="&lt;&lt;interface&gt;&gt;&#xa;UtagModelRepository" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="429" y="528" width="373" height="79" as="geometry">
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-12" value="&lt;&lt;interface&gt;&gt;&#xa;UtagModelRepository" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=47;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="429" y="528" width="374" height="94" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-RZ2mOXNUzrkTFULdYA-13" value="~ selectByUserId(String userId, String modelState)&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="s-RZ2mOXNUzrkTFULdYA-12" vertex="1">
-          <mxGeometry y="40" width="373" height="39" as="geometry" />
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-13" value="~ selectByUserId(String userId, String modelState)&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="s-RZ2mOXNUzrkTFULdYA-12" vertex="1">
+          <mxGeometry y="47" width="374" height="47" as="geometry" />
         </mxCell>
-        <mxCell id="s-RZ2mOXNUzrkTFULdYA-14" value="&lt;&lt;interface&gt;&gt;&#xa;BaseMapper" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="627" y="693" width="500" height="112" as="geometry">
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-14" value="&lt;&lt;interface&gt;&gt;&#xa;BaseMapper" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="627" y="693" width="380" height="133" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="s-RZ2mOXNUzrkTFULdYA-15" value="~ insert(T entity) : int&#xa;~ deleteById(Serializable id) : int&#xa;~ update(T entity, Wrapper&lt;T&gt; updateWrapper) : int&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="s-RZ2mOXNUzrkTFULdYA-14" vertex="1">
-          <mxGeometry y="40" width="500" height="72" as="geometry" />
+        <mxCell id="s-RZ2mOXNUzrkTFULdYA-15" value="~ insert(T entity) : int&#xa;~ deleteById(Serializable id) : int&#xa;~ update(T entity, Wrapper&lt;T&gt; updateWrapper) : int&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="s-RZ2mOXNUzrkTFULdYA-14" vertex="1">
+          <mxGeometry y="46" width="380" height="87" as="geometry" />
         </mxCell>
-        <mxCell id="s-RZ2mOXNUzrkTFULdYA-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=blockThin;endFill=0;exitX=0.488;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Rr-hiJWxibU_E36y0S3g-1" target="s-RZ2mOXNUzrkTFULdYA-14" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1109" y="611" />
-              <mxPoint x="1109" y="639" />
-              <mxPoint x="877" y="639" />
-            </Array>
-            <mxPoint x="1109.5000000000002" y="621" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="Rr-hiJWxibU_E36y0S3g-0" value="&lt;&lt;interface&gt;&gt;&#xa;UtagModelTaskConfigRepository" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="926" y="531" width="373" height="80" as="geometry">
+        <mxCell id="Rr-hiJWxibU_E36y0S3g-0" value="&lt;&lt;interface&gt;&gt;&#xa;UtagModelTaskConfigRepository" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=46;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;fontSize=16;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="926" y="531" width="269" height="95" as="geometry">
             <mxRectangle x="130" y="380" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Rr-hiJWxibU_E36y0S3g-1" value="~ batchUpdateStatus : void&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="Rr-hiJWxibU_E36y0S3g-0">
-          <mxGeometry y="40" width="373" height="40" as="geometry" />
+        <mxCell id="Rr-hiJWxibU_E36y0S3g-1" value="~ batchUpdateStatus : void&#xa;..." style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="Rr-hiJWxibU_E36y0S3g-0" vertex="1">
+          <mxGeometry y="46" width="269" height="49" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
